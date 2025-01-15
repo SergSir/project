@@ -1,1 +1,8 @@
-/venv
+__pycache__/
+.idea
+.idea/*
+server/*.sqlite3
+.venv/
+.venv/*
+venv/
+venv/*
