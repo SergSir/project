@@ -4,7 +4,7 @@
 ```
 python -m venv venv
 ```
-## Активация виртуального оуркжения
+## Активация виртуального окружения
 
 ```
 venv\Scripts\activate  # windows
@@ -23,4 +23,7 @@ pip install -r .\requirements.txt
 python server/manage.py runserver
 ```
 
-## qweqwe
+## Запуск Миграции
+```
+python manage.py migrate
+```
