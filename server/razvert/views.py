@@ -53,7 +53,6 @@ def get_user(request):
 
 def get_saved_users(request):
     users = RandomUser.objects.all().values('gender', 'first_name', 'last_name', 'email', 'city', 'country')
-    #return JsonResponse(list(users), safe=False)
     return render(request, "razvert/saved_user.html", {'users': users})
 
 def create_user(request):
